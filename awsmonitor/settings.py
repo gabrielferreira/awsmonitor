@@ -89,6 +89,8 @@ MEDIA_URL = '/media/'
 AWS_ACCESS_KEY = os.environ.get('AWS_ACCESS_KEY')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 
+import ipdb; ipdb.set_trace()
+
 # Custom S3 storage backends to store files in subfolders.
 from storages.backends.s3boto import S3BotoStorage
 
